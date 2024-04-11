@@ -1,6 +1,6 @@
 {
-  "name": "my-blog",
-  "version": "0.1.0",
+  "name": "@voiislav/blog",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,6 +19,7 @@
     "next": "^14.1.3",
     "next-auth": "^4.24.6",
     "react": "18.2.0",
+    "mongodb": "^6.5.0",
     "react-dom": "18.2.0",
     "zod": "^3.22.4"
   },
