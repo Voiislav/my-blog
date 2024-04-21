@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-misused-promises */
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
@@ -22,10 +23,12 @@ async function main() {
 }
 
 main()
-  .catch(e => {
-    throw e
+  .catch(err => {
+    console.error(err)
+    process.exit(1) // error happened
   })
   .finally(async () => {
     await prisma.$disconnect()
+    process.exit(0) // no errors
   })
 
