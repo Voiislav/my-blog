@@ -1,6 +1,6 @@
 import type { HTMLProps } from "react"
 import clsx from "clsx"
-import styles from "./styles.module.css"
+import styles from "./index.module.css"
 
 export type InputProps = HTMLProps<HTMLInputElement>
 

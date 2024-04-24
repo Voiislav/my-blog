@@ -1,4 +1,57 @@
 .wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 14px;
+}
+
+.greeting {
+    margin: 0;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gap {
+    height: 18px;
+    margin: 0;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 15px;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.submit {
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.submit:hover {
+    transition: 0.3s all ease;
+    opacity: 0.7;
 }
